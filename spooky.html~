@@ -6,9 +6,15 @@
 <body>
 <div style=" height: 100%; width: 100%;  padding-top:200px; display:block;"> <img src="http://www.wallies.com/filebin/images/loading_apple.gif" style="display:block;margin-left: auto; margin-right: auto;" width=20px></div>
 
- <audio controls>
+ <audio autoplay="autoplay">
   <source src="kittensandcatsmeowing.mp3" type="audio/mpeg">
   <source src="scarysoundseffects.mp3" type="audio/mpeg">
-</audio> 
+</audio>
+
+<audio autoplay="autoplay">
+  <source src="scarysoundseffects.mp3" type="audio/mpeg">
+</audio>
+<div style ="height:100%; width: 100%; background-color:black;">
+</div>
 </body>
 </html>
