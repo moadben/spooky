@@ -4,10 +4,10 @@
 </head>
 
 <body>
-<div style="width: 100%;  padding-top:200px; display:block;"> <img src="http://www.wallies.com/filebin/images/loading_apple.gif" style="display:block;margin-left: auto; margin-right: auto;" width=20px></div>
+<div style=" height: 100%; width: 100%;  padding-top:200px; display:block;"> <img src="http://www.wallies.com/filebin/images/loading_apple.gif" style="display:block;margin-left: auto; margin-right: auto;" width=20px></div>
 
  <audio controls>
-  <source src="ittensandcatsmeowing.mp3" type="audio/mpeg">
+  <source src="kittensandcatsmeowing.mp3" type="audio/mpeg">
   <source src="scarysoundseffects.mp3" type="audio/mpeg">
 </audio> 
 </body>
