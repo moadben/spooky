@@ -4,13 +4,13 @@
 <script>
 function pageScroll() {
     	window.scrollBy(0,100); // horizontal and vertical scroll increments
-    	scrolldelay = setTimeout('pageScroll()',1000); // scrolls every 100 milliseconds
+    	scrolldelay = setTimeout('pageScroll()',500); // scrolls every 100 milliseconds
 }
 </script>
 </head>
 
 <body onLoad="pageScroll()">
-<div style=" height: 100%; width: 100%;  padding-top:200px; display:block;"> <img src="http://www.wallies.com/filebin/images/loading_apple.gif" style="display:block;margin-left: auto; margin-right: auto;" width=20px></div>
+<div style=" height: 100%; width: 100%;  padding-top:1000px; display:block;"> <img src="http://www.wallies.com/filebin/images/loading_apple.gif" style="display:block;margin-left: auto; margin-right: auto;" width=20px></div>
 
  <audio autoplay="autoplay">
   <source src="kittensandcatsmeowing.mp3" type="audio/mpeg">
@@ -22,6 +22,13 @@ function pageScroll() {
 </audio>
 <div style ="height:100%; width: 100%; background-color:black;">
 	<img src="http://cimg0.ibsrv.net/cimg/www.doityourself.com/450x300_85/468/taxes-37468.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+</div>
+<div style ="height:100%; width: 100%; background-color:black;">
+	<img src="http://www.yummymummyclub.ca/sites/default/files/styles/sc610x358/public/dude_you_are_going_to_be_a_dad.jpg?itok=FTUWlg-W" style="display:block; margin-left: auto; margin-right: auto;">
+</div>
+<div style ="height:130%; width: 100%; background-color:black;">
+	<h1 style="color:white"> Oooooooo Parents are getting divvooooooooooorcedddddd </h1>
+	<img src="http://i.huffpost.com/gen/1221414/images/o-CHILDREN-OF-DIVORCE-facebook.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </div>
 </body>
 </html>
