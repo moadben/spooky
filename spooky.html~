@@ -1,9 +1,15 @@
 <!DOCTYPE html?>
 <html>
 <head>
+<script>
+function pageScroll() {
+    	window.scrollBy(0,100); // horizontal and vertical scroll increments
+    	scrolldelay = setTimeout('pageScroll()',1000); // scrolls every 100 milliseconds
+}
+</script>
 </head>
 
-<body>
+<body onLoad="pageScroll()">
 <div style=" height: 100%; width: 100%;  padding-top:200px; display:block;"> <img src="http://www.wallies.com/filebin/images/loading_apple.gif" style="display:block;margin-left: auto; margin-right: auto;" width=20px></div>
 
  <audio autoplay="autoplay">
@@ -15,6 +21,7 @@
   <source src="scarysoundseffects.mp3" type="audio/mpeg">
 </audio>
 <div style ="height:100%; width: 100%; background-color:black;">
+	<img src="http://cimg0.ibsrv.net/cimg/www.doityourself.com/450x300_85/468/taxes-37468.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </div>
 </body>
 </html>
